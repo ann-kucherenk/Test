@@ -1,6 +1,6 @@
 pod 'AppMetricaAnalytics', '~> 5.4.0'
 import AppMetricaCore
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-    let configuration = AppMetricaConfiguration(apiKey: "0fbd7f8a-e11b-42e3-8bb7-6c98539d8a4d")
+    let configuration = AppMetricaConfiguration(apiKey: "5299c982-b1db-4997-bc83-11c62b6e42e9")
     AppMetrica.activate(with: configuration!)
 }
